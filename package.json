@@ -16,7 +16,9 @@
     "url": "https://github.com/MikhailValkov/html-render.git"
   },
   "dependencies": {
-    "puppeteer": "^5.0.0",
+    "puppeteer": "^3.1.0",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-stealth": "^2.4.9",
     "puppeteer-page-proxy": "^1.2.7",
     "user-agents": "^1.0.559"
   },

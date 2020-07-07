@@ -20,10 +20,12 @@
  *       closeRender() - закрывает рендер
  */
 
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-extra');
 const useProxy = require('puppeteer-page-proxy');
 const userAgent = require('user-agents');
 
+const StealthPlugin = require('puppeteer-extra-plugin-stealth')
+puppeteer.use(StealthPlugin())
 
 let browser = null;
 
@@ -31,7 +33,8 @@ const getPage = async (options) => {
 
     if (!browser) {
         browser = await puppeteer.launch({
-            headless: !options.showBrowser
+            headless: !options.showBrowser,
+            args: ['--no-sandbox'],
         })
     }
 
