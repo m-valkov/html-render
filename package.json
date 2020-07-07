@@ -1,0 +1,19 @@
+{
+  "name": "@walkit/html-render",
+  "version": "1.0.2",
+  "description": "Puppeteer wrapper for more convenient work with proxies and random user-agents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeeter"
+  ],
+  "author": "Mikhail Valkov",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.0.0",
+    "puppeteer-page-proxy": "^1.2.7",
+    "user-agents": "^1.0.559"
+  }
+}
