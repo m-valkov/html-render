@@ -1,6 +1,6 @@
 {
   "name": "@walkit/html-render",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Puppeteer wrapper for more convenient work with proxies and random user-agents",
   "main": "index.js",
   "scripts": {
